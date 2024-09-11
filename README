@@ -1,14 +1,18 @@
 README
-CS 11 - HW08
 
-Name: Arman Kassam
+lineage.cpp
 
+The code runs with the command a.out < sampleC.data (or sampleD.data)
+Given a database of genes and mutations (as provided in Sample A and B data), the code has a series of functions:
 
-Parts of the assignment completed:
-written completed and submitted on gradescope
-lineage.cpp completed and submitted on terminal
+"e" followed by two genes eg. e TTAC TTAT will print a message telling you if 
+the given evolution is possible
 
-Others with whom you have collaborated or discussed the assignment:
-Lucas Frota (lfrota01) for the lab portion of the assignment
+"es" followed by two genes eg. es TTAC TTAT will print a message telling you 
+how many steps there are to evolve from one to another
 
-Any comments or feedback for course staff:
+"ene" followed by two genes and a number eg. ene TTAC TTAT will print a message 
+telling you if that evolution is possible with the given energy amount
+
+"path" followed by two genes eg. path TTAC TTAT will print the evolution path 
+between the two genes complete with all genes in between
